@@ -2,8 +2,8 @@ let deliLine = [];
 function takeANumber(line, name) {
 let place = line.length + 1;
 let greeting = 'Welcome, ' + name +'. You are number ' + place + ' in line.'
-return greeting;
 line.push(name);
+return greeting;
 }
 
 
