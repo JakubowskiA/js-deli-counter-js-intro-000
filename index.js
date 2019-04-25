@@ -21,8 +21,10 @@ function currentLine(line) {
   let output;
 if(line.length === 0) {output = "The line is currently empty."}
 else {
-  for( let i = 1; i<line.length; i++) {
-    output = 'The line is currently: ' + (i+1) +'. ' + line[i];
+  for( let i = 0; i<line.length; i++) {
+    if(i === 0){
+    output = 'The line is currently: ' + (i+1) +'. ' + line[i];}
+    else{output = 'The line is currently: ' + (i+1) +'. ' + line[i];}}
   }
 }
 return output;
