@@ -17,5 +17,11 @@ line.shift();
 
 
 function currentLine() {
-
+if(line.length === 0) {output = "The line is currently empty."}
+else {
+  for( let i = 0; i<linelength; i++) {
+    output = i+1 +'. ' + line[i];
+  }
+}
+return output;
 }
