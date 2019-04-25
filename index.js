@@ -17,7 +17,7 @@ return output;
 }
 
 
-function currentLine() {
+function currentLine(line) {
 if(line.length === 0) {output = "The line is currently empty."}
 else {
   for( let i = 0; i<linelength; i++) {
