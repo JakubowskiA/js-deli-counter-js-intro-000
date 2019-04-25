@@ -8,6 +8,7 @@ return greeting;
 
 
 function nowServing(line) {
+let output;
 if(line.length === 0) {output = "There is nobody waiting to be served!"}
 else { output = `Currently serving ${line[0]}.`
 line.shift();
